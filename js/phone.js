@@ -42,7 +42,7 @@ const displayPhones=(phones,isShowAll)=>{
                     </figure>
                     <div class="card-body">
                       <h2 class="card-title">${phone.phone_name}</h2>
-                      <p>AVAILABLE</p>
+                      <p class="text-green-500">AVAILABLE</p>
                       <div class="card-actions justify-center">
                         <button onclick="handleShowDetail('${phone.slug}');
                         " class="btn btn-primary">Show Details</button>
